@@ -1,7 +1,7 @@
 .card {
   color: rgb(87, 87, 87);
-  width: 25%;
-  padding: 30px 20px;
+  width: 23%;
+  padding: 30px;
   background-color: rgb(240, 236, 248);
   text-align: center;
   border-radius: 15px;
@@ -26,8 +26,17 @@
   line-height: 150%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .card {
     width: 80%;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
