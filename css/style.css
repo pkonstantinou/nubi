@@ -1,0 +1,71 @@
+/* Fonts */
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Fontawesome */
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+/* Components */
+@import url("components/text-center.css");
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+
+/* Utilities */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(254, 247, 255);
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+h2 {
+  font-size: 1.6rem;
+  margin: 3rem 0rem;
+  color: rgb(87, 87, 87);
+}
+
+.cards {
+  margin-bottom: 5rem;
+}
+
+.logo {
+  position: absolute;
+  width: 40px;
+  top: 30px;
+  left: 30px;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .card {
+    margin-bottom: 2rem;
+  }
+}

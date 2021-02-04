@@ -1,0 +1,15 @@
+.btn-primary {
+  display: inline-block;
+  background-color: rgb(46, 41, 75);
+  color: white;
+  padding: 14px 25px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: rgba(46, 41, 75, 0.3);
+  border-color: rgb(46, 41, 75);
+}
