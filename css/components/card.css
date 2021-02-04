@@ -6,27 +6,27 @@
   text-align: center;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(87, 67, 99, 0.15);
-  -webkit-transition: transform 0.3s ease-in-out;
-  -moz-transition: transform 0.3s ease-in-out;
-  -o-transition: transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.2s ease-in-out;
+  -moz-transition: transform 0.2s ease-in-out;
+  -o-transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
   cursor: pointer;
 }
 
 .card:hover {
-  -webkit-transform: scale(1.02);
-  -moz-transform: scale(1.02);
-  -o-transform: scale(1.02);
-  -ms-transform: scale(1.02);
-  transform: scale(1.02);
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -o-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
 }
 
 .card > img {
   width: 100px;
   height: 100px;
-  border: 1px solid rgb(127, 8, 113);
   border-radius: 50%;
   margin-bottom: 1rem;
+  box-shadow: 0 0 10px rgba(87, 67, 99, 0.1);
 }
 
 .card h3 {
