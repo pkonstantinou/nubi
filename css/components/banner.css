@@ -8,7 +8,7 @@
 .banner h1 {
   margin-bottom: 1.2rem;
   line-height: 120%;
-  animation: 1s ease-out 1s 1 fadeInAndSlideInFromLeft normal backwards;
+  animation: 1s ease-out 0.8s 1 fadeInAndSlideInFromLeft normal backwards;
 }
 
 .banner p {
@@ -16,11 +16,11 @@
   line-height: 160%;
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.7);
-  animation: 1s ease-out 1s 1 fadeInAndSlideInFromLeft normal backwards;
+  animation: 1s ease-out 0.8s 1 fadeInAndSlideInFromLeft normal backwards;
 }
 
 .banner .btn-primary {
-  animation: 1s ease-out 1.8s 1 fadeInAndSlidInFromDown normal backwards;
+  animation: 1s ease-out 1.6s 1 fadeInAndSlidInFromDown normal backwards;
 }
 
 @media (max-width: 576px) {
