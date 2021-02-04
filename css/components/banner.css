@@ -8,6 +8,7 @@
 .banner h1 {
   margin-bottom: 1.2rem;
   line-height: 120%;
+  animation: 1s ease-out 0s 1 fadeInAndSlideInFromLeft;
 }
 
 .banner p {
@@ -15,10 +16,37 @@
   line-height: 160%;
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.7);
+  animation: 1s ease-out 0s 1 fadeInAndSlideInFromLeft;
+}
+
+.banner .btn-primary {
+  animation: 1s ease-out 0.8s 1 fadeInAndSlidInFromDown normal backwards;
 }
 
 @media (max-width: 576px) {
   .banner h1 {
     font-size: 1.8rem;
+  }
+}
+
+@keyframes fadeInAndSlideInFromLeft {
+  0% {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAndSlidInFromDown {
+  0% {
+    transform: translateY(30%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
